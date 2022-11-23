@@ -163,6 +163,7 @@ ul {
     border:none;
     border-radius: 4px;
     fill: var(--second-color);
+    cursor: pointer;
 }
 .cards{
     display: flex;
