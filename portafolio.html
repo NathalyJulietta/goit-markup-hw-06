@@ -324,7 +324,7 @@
               <p id="contact-details-head" class="social-media">
                 SUSCRÍBASE AL BOLETÍN INFORMATIVO
               </p>
-              <form class="form">
+              <form name="form-subscribe" autocomplete="on" novalidate>
                 <div
                   class="form-group"
                   role="group"
@@ -339,11 +339,13 @@
                     />
                   </label>
                 </div>
-                <button class="button-subscribe" type="submit">
-                  <svg class="icon-subscribe">
-                    <use href="./images/icons.svg#icon-subscribe"></use>
-                  </svg>
-                </button>
+                <div>
+                  <button class="button-subscribe" type="submit">
+                    <svg class="icon-subscribe">
+                      <use href="./images/icons.svg#icon-subscribe"></use>
+                    </svg>
+                  </button>
+                </div>
               </form>
             </div>
           </li>
